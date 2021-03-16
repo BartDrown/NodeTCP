@@ -1,0 +1,12 @@
+{
+  "name": "node-proxy",
+  "version": "0.0.0",
+  "description": "Simple nodejs implementation of tcp/ip protocol",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "node main.js"
+  },
+  "author": "BartDrown",
+  "license": "MIT"
+}
