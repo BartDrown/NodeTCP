@@ -4,9 +4,7 @@ var server = net.createServer(function(c) { //'connection' listener
   c.on('end', function() {
     console.log('Client disconnected at: ', new Date);
   });
-  c.on('data', function(data) {
-    console.log('Data received from client: ',data.toString());
-  });
+	
   c.write('Server respone to client\r\n');
   c.pipe(c);
 });
